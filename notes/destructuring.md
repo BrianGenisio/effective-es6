@@ -30,7 +30,51 @@ let b = 2;
 console.log(a, b); // 2, 1
 ```
 
-## Use this whenever you can
+## Use this whenever you can to make code more expressive
+
 ### React Components
+```javascript
+var InformativeComponent = React.createClass({
+  render: function() {
+    const {heading, body, footer} = this.props;
+    
+    return <div>
+      <h1>{heading}</h1>
+      <p>{body}</p>
+      <footer>{footer}</footer>
+    </div>;
+  }
+});
+```
+
 ### Redux Reducers
-### What else?
+```javascript
+function todoApp(state = initialState, {type, filter}) {
+  switch (type) {
+    case SET_VISIBILITY_FILTER:
+      return Object.assign({}, state, {
+        visibilityFilter: filter
+      });
+      
+    default:
+      return state;
+  }
+}
+```
+
+### Passing correlated data
+```javascript
+function filterTeam(teams=[], {start, end}, teamName) {
+  return teams
+    .filter(t => t.start >= start && t.end <= end)
+    .filter(t => t.name.includes(teamName);
+}
+
+function handleClick() {
+  const {start, end, teams, teamName} = this.props;
+  const filtered = filterTeam(teams, {start, end}, teamName);
+
+  // ...
+}
+```
+
