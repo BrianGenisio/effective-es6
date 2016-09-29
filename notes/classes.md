@@ -51,3 +51,30 @@ export class MyComponent {
 }
 
 ```
+
+## Aurelia Component
+From [Aurelia Docs](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/creating-components/1)
+
+```javascript
+export class Hello {
+  firstName = 'John';
+  lastName = 'Doe';
+
+  sayHello() {
+    alert(`Hello ${this.firstName} ${this.lastName}. Nice to meet you.`);
+  }
+}
+```
+
+```html
+<template>
+  <input value.bind="firstName">
+  <input value.bind="lastName">
+
+  <p>
+    Name: ${firstName} ${lastName}
+  </p>
+
+  <button click.trigger="sayHello()">Say Hello</button>
+</template>
+```
