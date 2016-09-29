@@ -52,6 +52,18 @@ export class MyComponent {
 
 ```
 
+## Mobx
+From [Mobx Docs](https://github.com/mobxjs/mobx)
+
+```javascript
+class TodoList {
+    @observable todos = [];
+    @computed get unfinishedTodoCount() {
+        return this.todos.filter(todo => !todo.finished).length;
+    }
+}
+```
+
 ## Aurelia Component
 From [Aurelia Docs](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/creating-components/1)
 
