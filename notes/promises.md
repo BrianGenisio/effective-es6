@@ -38,4 +38,14 @@ wait(1000)
 
 ## Fetch api
 
-## Other examples
+## axios
+
+## Webdriver.io
+
+## Gulp/Grunt
+
+## Mocha
+
+## Sequelize
+
+## GraphQL Backend
