@@ -1,0 +1,9 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Effective ES2015",
+    "packageVersion": "0.0.0",
+    "revealTheme": "league",
+    "useSass": false,
+    "deployToGithubPages": false
+  }
+}
