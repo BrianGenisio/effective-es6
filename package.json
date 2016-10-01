@@ -19,6 +19,6 @@
   "scripts": {
     "test": "grunt test",
     "start": "grunt serve",
-    "deploy": "rm -rf ./docs && grunt dist && mv ./dist ./docs && git add -A . && git push"
+    "deploy": "rm -rf ./docs && grunt dist && mv ./dist ./docs && git add -A . && git commit -m 'deploying' && git push"
   }
 }
