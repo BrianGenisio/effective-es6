@@ -8,6 +8,7 @@
         "1-transpile-reasons-to-transpile.md",
         "1-transpile-reasons-not-to-transpile.md",
         "1-transpile-babel.md",
+        "1-transpile-babel-howto.md",
         "1-transpile-babel-presets.md",
         "1-transpile-babel-stages.md",
         "1-transpile-babel-individual.md",

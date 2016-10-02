@@ -1,6 +1,10 @@
-##  #1 transpile Babel presets
+##  Babel Presets
 
-This is a new Markdown slide
+- Latest
+- 2017
+- 2016
+- 2015
+- React
 
 note:
     Put your speaker notes here.

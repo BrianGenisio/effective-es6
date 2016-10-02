@@ -1,6 +1,6 @@
-##  #1 transpile Babel
+# ![Babel.js](https://raw.githubusercontent.com/babel/logo/master/babel.png)
 
-This is a new Markdown slide
+> Babel is a JavaScript compiler.
 
 note:
     Put your speaker notes here.
