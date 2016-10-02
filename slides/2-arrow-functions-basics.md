@@ -1,6 +1,18 @@
-##  #2 arrow functions basics
+##  () => basics
 
-This is a new Markdown slide
+Turn traditional functions
+
+```javascript
+function(a, b, c) {
+  return a + b + c;
+}
+```
+
+To "Lambda" notation
+
+```javascript
+(a, b, c) => a + b + c
+```
 
 note:
     Put your speaker notes here.
