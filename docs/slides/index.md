@@ -1,10 +1,4 @@
 
-# Effective ES2015
-
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+## 10 insane tips you can use TODAY to ES6/2015 effectively
+### #8 will shock you!
+#### Brian Genisio -- Khan Academy
