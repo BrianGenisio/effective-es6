@@ -1,6 +1,9 @@
-##  #1 transpile Babel experimantal
+##  "Expermental" features
 
-This is a new Markdown slide
+- JSX
+- Flow
+- Decorators
+- More to come?
 
 note:
     Put your speaker notes here.
