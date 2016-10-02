@@ -1,6 +1,14 @@
-##  #2 arrow functions stateless functional components react
+## React.js  
+### Stateless functional components
 
-This is a new Markdown slide
+```javascript
+const InformativeComponent = props => 
+  <div>
+    <h1>{props.heading}</h1>
+    <p>{props.body}</p>
+    <footer>{props.footer}</footer>
+  </div>;
+```
 
 note:
     Put your speaker notes here.
