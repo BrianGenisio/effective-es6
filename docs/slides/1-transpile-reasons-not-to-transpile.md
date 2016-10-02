@@ -1,6 +1,9 @@
-##  #1 transpile reasons not to transpile
+##  Reasons to not transpile
 
-This is a new Markdown slide
+- Modern Node.js <!-- .element: class="fragment" -->
+- Browser Support <!-- .element: class="fragment" -->
+- The language has been perfect since 1999 <!-- .element: class="fragment" -->
+- You don't like nice things <!-- .element: class="fragment" -->
 
 note:
     Put your speaker notes here.

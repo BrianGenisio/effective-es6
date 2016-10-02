@@ -1,6 +1,11 @@
-##  #1 transpile reasons to transpile
+##  Reasons to transpile
 
-This is a new Markdown slide
+- ALL THE FEATURES!!! <!-- .element: class="fragment" -->
+- Remove options over time <!-- .element: class="fragment" -->
+- New/experimental features <!-- .element: class="fragment" -->
+- Battle Tested, Production Ready, Wide utilization <!-- .element: class="fragment" -->
+- Clean Output <!-- .element: class="fragment" -->
+- Source Maps <!-- .element: class="fragment" -->
 
 note:
     Put your speaker notes here.
