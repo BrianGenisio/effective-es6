@@ -1,6 +1,17 @@
-##  #6 Default parameters redux
+##  Redux Reducers
 
-This is a new Markdown slide
+```javascript
+function todoApp(state = initialState, action) {
+  switch (action.type) {
+    case SET_VISIBILITY_FILTER:
+      return Object.assign({}, state, {
+        visibilityFilter: action.filter
+      })
+    default:
+      return state
+  }
+}
+```
 
 note:
     Put your speaker notes here.
