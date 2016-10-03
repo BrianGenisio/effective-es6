@@ -27,7 +27,6 @@
         "3-vars-var-is-dead.md",
         "3-vars-block-scoping-ftw.md",
         "3-vars-prefer-const-over-let.md",
-        "3-vars-let-in-for-loop.md",
         "3-vars-for-is-dea.md",
         "3-vars-avoid-let-without-assignment.md",
         "3-vars-avoid-let-completely.md"

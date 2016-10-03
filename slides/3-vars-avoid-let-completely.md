@@ -1,6 +1,8 @@
-##  #3 vars avoid let completely
+##  Avoid `let` as much as possible
 
-This is a new Markdown slide
+```javascript
+return something === true ? 'love' : 'hate';
+```
 
 note:
     Put your speaker notes here.

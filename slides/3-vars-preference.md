@@ -1,6 +1,9 @@
-##  #3 vars preference
+##  Keyword Preference
 
-This is a new Markdown slide
+Preference Order: 
+1. `const`
+2. `let`
+3. `var`
 
 note:
     Put your speaker notes here.
