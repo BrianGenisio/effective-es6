@@ -1,6 +1,10 @@
-##  #6 Default parameters definition
+##  #6 Default parameters
 
-This is a new Markdown slide
+```javascript
+function add(a=0, b=0) {
+  return a + b;
+}
+```
 
 note:
     Put your speaker notes here.

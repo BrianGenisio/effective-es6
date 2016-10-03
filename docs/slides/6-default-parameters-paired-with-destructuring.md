@@ -1,6 +1,10 @@
-##  #6 Default parameters paired with destructuring
+##  Paired with destructuring
 
-This is a new Markdown slide
+```javascript
+function printUser({first: 'Barak', last: 'Obama'}) {
+  console.log(first, last);
+}
+```
 
 note:
     Put your speaker notes here.

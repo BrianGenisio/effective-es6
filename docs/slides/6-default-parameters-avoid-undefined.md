@@ -1,6 +1,10 @@
-##  #6 Default parameters avoid undefined
+##  Avoid undefined
 
-This is a new Markdown slide
+```javascript
+function printUser(u = {first: 'Barak', last: 'Obama'}) {
+  console.log(u.first, u.last);
+}
+```
 
 note:
     Put your speaker notes here.

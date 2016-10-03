@@ -1,6 +1,4 @@
-##  #3 vars
-
-This is a new Markdown slide
+##  #3 Block Scoping
 
 note:
     Put your speaker notes here.

@@ -1,6 +1,16 @@
-##  #5 Array Spread Immutable append prepend
+##  Immutable Operations
 
-This is a new Markdown slide
+```javascript
+function append(list=[], item) {
+  return [...list, item];
+}
+```
+
+```javascript
+function prepend(list=[], item) {
+  return [item, ...list];
+}
+```
 
 note:
     Put your speaker notes here.

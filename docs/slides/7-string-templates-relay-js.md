@@ -1,6 +1,20 @@
-##  #7 String Templates Relay.js
+##  Relay.js
 
-This is a new Markdown slide
+```javascript
+Relay.QL`query { game }`
+```
+
+```javascript
+Relay.createContainer(Foo, {
+  fragments: {
+    bar: () => Relay.QL`
+      fragment on Bar {
+        ${ChildComponent.getFragment('childFragmentName')},
+      }
+    `,
+  }
+});
+```
 
 note:
     Put your speaker notes here.

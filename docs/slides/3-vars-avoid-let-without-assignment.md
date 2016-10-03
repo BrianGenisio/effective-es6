@@ -1,6 +1,14 @@
-##  #3 vars avoid let without assignment
+##  Avoid `let` without assignment
 
-This is a new Markdown slide
+```javascript
+let result;  // this reads funny
+if(something === true) {
+  result = 'love';
+} else {
+  result = `hate`;
+}
+return result;
+```
 
 note:
     Put your speaker notes here.
