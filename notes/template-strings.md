@@ -19,7 +19,7 @@ const oldHtml = '<div>' +
 '  <h1>' + header + '</h1>' +
 '  <p>' + body + '</p>' +
 '  <footer>' + footer + '</footer>' +
-'</div>;
+'</div>';
 
 const newHtml = `
 <div>
@@ -50,7 +50,8 @@ Relay.createContainer(Foo, {
 ## Virtual DOM generation without JSX
 Via [Hyperx](https://github.com/substack/hyperx)
 
-```javascriptvar hyperx = require('hyperx')
+```javascript
+var hyperx = require('hyperx')
 var hx = hyperx(React.createElement)
 
 var title = 'world'
