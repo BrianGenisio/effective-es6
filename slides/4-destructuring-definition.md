@@ -1,6 +1,18 @@
-##  #4 Destructuring definition
+##  #4 Destructuring
 
-This is a new Markdown slide
+Code like this:
+```javascript
+const first = this.props.first;
+const last = this.props.last;
+```
+
+<div>
+Becomes this:
+```javascript
+const {first, last} = this.props;
+```
+</div>
+<!-- .element: class="fragment" -->
 
 note:
     Put your speaker notes here.
