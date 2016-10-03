@@ -1,6 +1,12 @@
-##  #7 String Templates interpolation
+##  Interpolation
 
-This is a new Markdown slide
+```javascript
+const source = "Ground Control";
+const dest = "Major Tom";
+
+console.log('<q>' + source + ' to ' + dest + '</q>');
+console.log(`<q>${source} to ${dest}</q>`);
+```
 
 note:
     Put your speaker notes here.
