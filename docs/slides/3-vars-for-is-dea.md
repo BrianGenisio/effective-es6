@@ -1,6 +1,11 @@
-##  #3 vars for is dea
+##  `for` is dead
+## Long live functional composition!
 
-This is a new Markdown slide
+```javascript
+  processedPeople
+    .forEach(person => console.log(`We processed ${person.name}.`));
+```
+
 
 note:
     Put your speaker notes here.

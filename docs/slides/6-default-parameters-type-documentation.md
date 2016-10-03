@@ -1,6 +1,12 @@
-##  #6 Default parameters type documentation
+##  Type documentation
 
-This is a new Markdown slide
+```javascript
+function printUserMultiple({first: '', last: ''}, times=0) {
+  for(let i=0; i<times; i++) {
+    console.log(first, last);
+  }
+}
+```
 
 note:
     Put your speaker notes here.

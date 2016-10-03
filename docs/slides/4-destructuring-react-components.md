@@ -1,6 +1,18 @@
-##  #4 Destructuring react components
+##  React Components
 
-This is a new Markdown slide
+```javascript
+var InformativeComponent = React.createClass({
+  render: function() {
+    const {heading, body, footer} = this.props;
+
+    return <div>
+      <h1>{heading}</h1>
+      <p>{body}</p>
+      <footer>{footer}</footer>
+    </div>;
+  }
+});
+```
 
 note:
     Put your speaker notes here.

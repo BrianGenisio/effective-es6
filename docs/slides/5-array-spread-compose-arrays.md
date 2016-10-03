@@ -1,6 +1,9 @@
-##  #5 Array Spread compose arrays
+##  Array Composition
 
-This is a new Markdown slide
+```javascript
+const a = [2, 3, 4];
+const b = [1, ...a, 5]; // [1, 2, 3, 4, 5]
+```
 
 note:
     Put your speaker notes here.
