@@ -1,6 +1,14 @@
-##  #5 Array Spread Immutable insert
+##  Immutable insert
 
-This is a new Markdown slide
+```javascript
+function insert(list=[], index=0, item) {
+  return [
+    ...list.slice(0, index),
+    item,
+    ...list.slice(index)
+  ];
+}
+```
 
 note:
     Put your speaker notes here.
