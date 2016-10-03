@@ -1,6 +1,14 @@
-##  #5 Array Spread Immutable replace
+##  Immutable replace
 
-This is a new Markdown slide
+```javascript
+function replace(list=[], index=0, item) {
+  return [
+    ...list.slice(0, index),
+    item,
+    ...list.slice(index + 1)
+  ];
+}
+```
 
 note:
     Put your speaker notes here.
