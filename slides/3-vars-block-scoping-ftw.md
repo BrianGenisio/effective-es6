@@ -1,6 +1,16 @@
-##  #3 vars block scoping FTW
+##  Long Live Block Scoping!
 
-This is a new Markdown slide
+```javascript
+function letTest() {
+  let x = 1;
+  if (true) {
+    let x = 2;  // different variable
+    console.log(x);  // 2
+  }
+  console.log(x);  // 1
+}
+```
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
 note:
     Put your speaker notes here.
