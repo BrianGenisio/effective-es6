@@ -1,6 +1,4 @@
-##  #8 Generators
-
-This is a new Markdown slide
+##  #8 Iterators and Generators
 
 note:
     Put your speaker notes here.
