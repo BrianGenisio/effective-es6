@@ -1,6 +1,12 @@
-##  #8 Generators iterators structure
+##  Iterator structure
 
-This is a new Markdown slide
+```javascript
+const iterator {
+    next: function() {
+        return {value: 0, done: true}
+    }
+}
+```
 
 note:
     Put your speaker notes here.
