@@ -1,6 +1,10 @@
-##  #8 Generators for-of
+##  `for-of`
 
-This is a new Markdown slide
+```javascript
+for(let thing of getIterator()) {
+  console.log(thing);
+}
+```
 
 note:
     Put your speaker notes here.
