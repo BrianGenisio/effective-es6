@@ -1,6 +1,13 @@
-##  #8 Generators iterators usage
+##  Iterators usage
 
-This is a new Markdown slide
+```javascript
+const iterator = getIterator();
+let step = undefined;
+
+while((step = it.next()) && !step.done) {
+  console.log(step.value);
+}
+```
 
 note:
     Put your speaker notes here.
