@@ -1,6 +1,5 @@
 ##  #10 Property Shorthand
 
-This is a new Markdown slide
 
 note:
     Put your speaker notes here.

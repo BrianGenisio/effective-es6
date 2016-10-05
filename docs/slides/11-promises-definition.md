@@ -1,6 +1,14 @@
-##  #11 Promises definition
+##  A more fluent interface
 
-This is a new Markdown slide
+```javascript
+doSomething(result => processResult(result), err => handleError(err));
+```
+
+```javascript
+doSomething()
+  .then(processResult)
+  .catch(handleError);
+```
 
 note:
     Put your speaker notes here.

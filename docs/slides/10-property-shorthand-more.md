@@ -1,6 +1,24 @@
-##  #10 Property Shorthand more
+##  More Capabilities
 
-This is a new Markdown slide
+```javascript
+const thing = {
+  func: function() {
+    return true;
+  }
+};
+thing[field] = 'something';
+```
+
+```javascript
+const thing = {
+  func() {
+    return true;
+  },
+
+  [field]: 'something'
+};
+```
+<!-- .element: class="fragment" -->
 
 note:
     Put your speaker notes here.

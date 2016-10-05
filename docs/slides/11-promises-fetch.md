@@ -1,6 +1,11 @@
-##  #11 Promises fetch
+##  fetch
 
-This is a new Markdown slide
+```javascript
+fetch('/users.json')
+  .then(response => response.json())
+  .then(users => processUsers(users))
+  .catch(ex => displayError(ex));
+```
 
 note:
     Put your speaker notes here.

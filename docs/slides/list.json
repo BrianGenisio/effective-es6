@@ -87,7 +87,8 @@
         "9-classes-react.md",
         "9-classes-angular-2.md",
         "9-classes-mobx.md",
-        "9-classes-aurelia.md"
+        "9-classes-aurelia.md",
+        "9-classes-decorators.md"
     ],
     [
         "10-property-shorthand.md",
@@ -98,8 +99,6 @@
     [
         "11-promises.md",
         "11-promises-definition.md",
-        "11-promises-old-way.md",
-        "11-promises-new-way.md",
         "11-promises-settimeout-old.md",
         "11-promises-wait.md",
         "11-promises-fetch.md",
