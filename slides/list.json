@@ -87,7 +87,8 @@
         "9-classes-react.md",
         "9-classes-angular-2.md",
         "9-classes-mobx.md",
-        "9-classes-aurelia.md"
+        "9-classes-aurelia.md",
+        "9-classes-decorators.md"
     ],
     [
         "10-property-shorthand.md",
