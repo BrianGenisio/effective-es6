@@ -1,6 +1,10 @@
-##  #12 Modules import export
+##  Import/Export
 
-This is a new Markdown slide
+```javascript
+import DisplayComponent from './display-component';
+
+export default () => <DisplayComponent>Hello World</DisplayComponent>;
+```
 
 note:
     Put your speaker notes here.
