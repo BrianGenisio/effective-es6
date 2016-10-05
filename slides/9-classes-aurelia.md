@@ -1,6 +1,29 @@
-##  #9 Classes Aurelia
+##  Aurelia Component
 
-This is a new Markdown slide
+```javascript
+export class Hello {
+  firstName = 'John';
+  lastName = 'Doe';
+
+  sayHello() {
+    alert(`Hello ${this.firstName} ${this.lastName}. Nice to meet you.`);
+  }
+}
+```
+```html
+<template>
+  <input value.bind="firstName">
+  <input value.bind="lastName">
+
+  <p>
+    Name: ${firstName} ${lastName}
+  </p>
+
+  <button click.trigger="sayHello()">Say Hello</button>
+</template>
+```
+
+[Aurelia Docs](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/creating-components/1)
 
 note:
     Put your speaker notes here.

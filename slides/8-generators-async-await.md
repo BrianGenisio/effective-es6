@@ -2,15 +2,14 @@
 ### Async/Await
 
 ```javascript
-var foo = async (function() {
-    var resultA = await (firstAsyncCall());
-    var resultB = await (secondAsyncCallUsing(resultA));
-    var resultC = await (thirdAsyncCallUsing(resultB));
-    return doSomethingWith(resultC);
-});
+async function getReadmeInHtml (repo) {
+  const readme = await getReadme(repo)
+  const html = await convertMdToHtml(readme)
+  const filename = await saveHtml(html)
+}
 ```
 
-[yortus/asyncawait](https://github.com/yortus/asyncawait)
+[coligo.io](https://coligo.io/javascript-async-await/)
 
 note:
     Put your speaker notes here.
