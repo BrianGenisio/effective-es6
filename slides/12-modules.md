@@ -1,6 +1,5 @@
-##  #12 Modules
+##  #12 Modules, Loaders, and Bundlers
 
-This is a new Markdown slide
 
 note:
     Put your speaker notes here.
