@@ -1,6 +1,16 @@
-##  #10 Property Shorthand with
+##  With Property Shorthand
 
-This is a new Markdown slide
+```javascript
+function create(first, last) {
+  const headers = getHeaders();
+
+  return fetch('/users', {
+    method: 'post',
+    headers,
+    body: JSON.stringify({first, last})
+  });
+}
+```
 
 note:
     Put your speaker notes here.
