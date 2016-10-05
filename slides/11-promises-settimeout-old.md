@@ -1,6 +1,16 @@
-##  #11 Promises setTimeout old
+##  `setTimeout()`
 
-This is a new Markdown slide
+- Wait 1s
+- Do Something
+- Wait 2s
+- Do something else
+
+```javascript
+setTimeout(() => {
+  doSomething();
+  setTimeout(doSomethingElse, 2000);
+}, 1000);
+```
 
 note:
     Put your speaker notes here.

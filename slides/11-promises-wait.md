@@ -1,6 +1,17 @@
-##  #11 Promises wait
+##  `wait()`
 
-This is a new Markdown slide
+```javascript
+function wait(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+```
+
+```javascript
+wait(1000)
+  .then(doSomething)
+  .then(() => wait(2000))
+  .then(doSomethingElse);
+```
 
 note:
     Put your speaker notes here.
