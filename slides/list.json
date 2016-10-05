@@ -99,8 +99,6 @@
     [
         "11-promises.md",
         "11-promises-definition.md",
-        "11-promises-old-way.md",
-        "11-promises-new-way.md",
         "11-promises-settimeout-old.md",
         "11-promises-wait.md",
         "11-promises-fetch.md",
