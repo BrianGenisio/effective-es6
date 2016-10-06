@@ -1,9 +1,8 @@
 ##  Keyword Preference
 
-Preference Order: 
-1. `const`
-2. `let`
-3. `var`
+![egghead.io](http://image.prntscr.com/image/06daea287ac94596bb51300ce5d73bb8.png) <!-- .element: style="width:700px" -->
+
+[@egghedio](https://twitter.com/eggheadio/status/783723540029681665)
 
 note:
     Put your speaker notes here.
