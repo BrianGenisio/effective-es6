@@ -1,8 +1,8 @@
 ##  Iterator structure
 
 ```javascript
-const iterator {
-    next: function() {
+const iterator = {
+    next: function(in) {
         return {value: 0, done: true}
     }
 }
