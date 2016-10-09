@@ -7,6 +7,7 @@ const thing = {
   }
 };
 thing[field] = 'something';
+Object.defineProperty(thing, "blah", { get: function () { return 8; } });
 ```
 
 ```javascript
@@ -15,7 +16,11 @@ const thing = {
     return true;
   },
 
-  [field]: 'something'
+  [field]: 'something',
+
+  get blah() {
+    return 8;
+  }
 };
 ```
 <!-- .element: class="fragment" -->

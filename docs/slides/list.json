@@ -27,9 +27,10 @@
     ],
     [
         "3-vars.md",
-        "3-vars-preference.md",
         "3-vars-var-is-dead.md",
         "3-vars-block-scoping-ftw.md",
+        "3-const.md",
+        "3-vars-preference.md",
         "3-vars-prefer-const-over-let.md",
         "3-vars-for-is-dea.md",
         "3-vars-avoid-let-without-assignment.md",
@@ -53,6 +54,7 @@
         "5-array-spread-immutable-remove.md",
         "5-array-spread-immutable-insert.md",
         "5-array-spread-immutable-replace.md",
+        "5-rest.md",
         "5-array-spread-objects.md",
         "5-array-spread-objects-immutable.md"
     ],
@@ -81,6 +83,7 @@
         "8-generators-definition.md",
         "8-generators-unique-ids.md",
         "8-generators-factorial.md",
+        "8-generators-two-way.md",
         "8-generators-co-js.md",
         "8-generators-redux-sagas.md",
         "8-generators-async-await.md"
