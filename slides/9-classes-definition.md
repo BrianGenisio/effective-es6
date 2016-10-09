@@ -18,6 +18,10 @@ class Dog extends Animal {
     bark() {
         console.log('Woof');
     }
+
+    get legs() {
+        return 4;
+    }
 }
 ```
 
