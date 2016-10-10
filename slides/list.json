@@ -21,6 +21,7 @@
     [
         "2-arrow-functions.md",
         "2-arrow-functions-basics.md",
+        "2-arrow-functions-intro.md",
         "2-arrow-functions-filter-map-reduce.md",
         "2-arrow-functions-lexical-scope.md",
         "2-arrow-functions-stateless-functional-components-react.md"
