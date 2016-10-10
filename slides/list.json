@@ -56,7 +56,8 @@
         "5-array-spread-immutable-replace.md",
         "5-rest.md",
         "5-array-spread-objects.md",
-        "5-array-spread-objects-immutable.md"
+        "5-array-spread-objects-immutable.md",
+        "5-array-spread-emoji.md"
     ],
     [
         "6-default-parameters.md",
