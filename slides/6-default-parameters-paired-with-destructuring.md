@@ -1,7 +1,7 @@
 ##  Paired with destructuring
 
 ```javascript
-function printUser({first: 'Barak', last: 'Obama'}) {
+function printUser({first = 'Barak', last = 'Obama'} = {}) {
   console.log(first, last);
 }
 ```

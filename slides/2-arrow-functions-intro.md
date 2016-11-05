@@ -10,3 +10,5 @@ filter([🍿, 🍔, 🍳], isVegetarian)
 reduce([🍿, 🍳], eat)
 // => 💩
 ```
+
+### [@steveluscher](https://twitter.com/steveluscher)
