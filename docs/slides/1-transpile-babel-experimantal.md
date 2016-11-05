@@ -1,4 +1,4 @@
-##  "Expermental" features
+##  "Experimental" features
 
 - JSX
 - Flow
