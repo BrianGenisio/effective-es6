@@ -1,6 +1,6 @@
 ##  Babel Presets
 
-- Latest
+- env
 - 2017
 - 2016
 - 2015
