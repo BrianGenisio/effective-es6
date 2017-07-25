@@ -7,7 +7,9 @@ const thing = {
   }
 };
 thing[field] = 'something';
-Object.defineProperty(thing, "blah", { get: function () { return 8; } });
+Object.defineProperty(thing, "blah", {
+    get: function () { return 8; }
+});
 ```
 
 ```javascript

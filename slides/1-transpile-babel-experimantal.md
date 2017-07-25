@@ -3,7 +3,7 @@
 - JSX
 - Flow
 - Decorators
-- More to come?
+- Many more
 
 note:
     Put your speaker notes here.

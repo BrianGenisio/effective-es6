@@ -7,7 +7,7 @@
   - Bit-Imports.js
   - More
 
-But individual fiele loading over the browser, and HTTP/1.1 can be slow
+But individual file loading over the browser, and HTTP/1.1 can be slow
 <!-- .element: class="fragment" -->
 
 note:
