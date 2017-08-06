@@ -2,22 +2,20 @@
 
 ```javascript
 class Counter extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {count: 0};
+  state = {
+      count: 0,
   }
 
   tick() {
-    this.setState({count: this.state.count + 1});
+    const {count} = this.state;
+    this.setState({count: count + 1});
   }
 
   render() {
-    return (
-      <div onClick={() => this.tick()}>
-        Clicks: {this.state.count}
-      </div>
-    );
+    const {count} = this.state;
+    return <div onClick={() => this.tick()}>
+      Clicks: {count}
+    </div>;
   }
 }
 

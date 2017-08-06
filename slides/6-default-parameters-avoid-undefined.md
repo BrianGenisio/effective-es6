@@ -1,7 +1,7 @@
 ##  Avoid undefined
 
 ```javascript
-function printUser(u = {first: 'Barak', last: 'Obama'}) {
+function printUser(u = {first: 'Barack', last: 'Obama'}) {
   console.log(u.first, u.last);
 }
 ```
