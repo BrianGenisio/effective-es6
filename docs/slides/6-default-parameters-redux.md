@@ -1,14 +1,16 @@
 ##  Redux Reducers
 
 ```javascript
-function todoApp(state = {}, action) {
-  switch (action.type) {
+function todoApp(state = {}, {type, filter}) {
+  switch (type) {
     case SET_VISIBILITY_FILTER:
-      return Object.assign({}, state, {
-        visibilityFilter: action.filter
-      })
+      return {
+          ...state,
+          visibilityFilter: filter,
+      };
+      
     default:
-      return state
+      return state;
   }
 }
 ```
