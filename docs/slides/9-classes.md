@@ -1,7 +1,7 @@
 ##  #9 Classes
 
-![interesting](https://i.imgflip.com/1t0tv6.jpg)
-<!-- .element: class="fragment" -->
+![interesting](resources/interesting.jpg)
+<!-- .element: class="fragment" style="width: 400px" -->
 
 note:
     Put your speaker notes here.

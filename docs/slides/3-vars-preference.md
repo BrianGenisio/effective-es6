@@ -1,6 +1,6 @@
 ##  Keyword Preference
 
-![egghead.io](https://image.prntscr.com/image/zvvsIX1vStSeZeEKoxJBAw.png) <!-- .element: style="width:700px" -->
+![egghead.io](resources/block.png) <!-- .element: style="width:700px" -->
 
 [@egghedio](https://twitter.com/eggheadio/status/783723540029681665)
 
