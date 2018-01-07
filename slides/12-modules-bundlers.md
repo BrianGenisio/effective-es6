@@ -4,10 +4,7 @@
 - Transforms (transpile, minify, etc)
 - One, large, single JS file
 - Several options
-  - Browserify
   - Webpack
+  - Browserify
+  - Rollup
   - Bit-Bundler
-
-note:
-    Put your speaker notes here.
-    You can see them pressing 's'.
