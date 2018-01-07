@@ -2,13 +2,13 @@
 
 ```javascript
 function myFunction(x, y, z) { }
-var args = [0, 1, 2];
+const args = [0, 1, 2];
 myFunction.apply(null, args);
 ```
 
 ```javascript
 function myFunction(x, y, z) { }
-var args = [0, 1, 2];
+const args = [0, 1, 2];
 myFunction(...args);
 ```
 

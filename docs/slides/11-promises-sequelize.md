@@ -1,10 +1,10 @@
 ##  Sequelize.js
 
 ```javascript
-var Sequelize = require('sequelize');
-var sequelize = new Sequelize('database', 'username', 'password');
+const Sequelize = require('sequelize');
+const sequelize = new Sequelize('database', 'username', 'password');
 
-var User = sequelize.define('user', {
+const User = sequelize.define('user', {
   username: Sequelize.STRING,
   birthday: Sequelize.DATE
 });

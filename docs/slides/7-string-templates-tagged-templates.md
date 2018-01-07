@@ -1,4 +1,4 @@
-##  Tagged templates
+##  Tagged template literals
 
 ```javascript
 function uc(strings, ...values) {

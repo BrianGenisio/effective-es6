@@ -1,7 +1,7 @@
 ##  Mocha
 
 ```javascript
-var fs = require('fs-promise');
+const fs = require('fs-promise');
 
 it('reads some file', function() {
   return fs.readFile('someFile.json')

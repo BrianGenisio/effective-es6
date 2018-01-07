@@ -13,6 +13,13 @@ wait(1000)
   .then(doSomethingElse);
 ```
 
+```javascript
+await wait(1000)
+doSomething();
+await wait(2000);
+doSomethingElse();
+```
+
 note:
     Put your speaker notes here.
     You can see them pressing 's'.
