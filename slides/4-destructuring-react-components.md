@@ -1,8 +1,8 @@
 ##  React Components
 
 ```javascript
-var InformativeComponent = React.createClass({
-  render: function() {
+class InformativeComponent extends React.createClass {
+  render() {
     const {heading, body, footer} = this.props;
 
     return <div>
@@ -11,7 +11,7 @@ var InformativeComponent = React.createClass({
       <footer>{footer}</footer>
     </div>;
   }
-});
+}
 ```
 
 note:

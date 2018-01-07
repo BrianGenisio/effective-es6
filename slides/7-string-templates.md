@@ -1,4 +1,4 @@
-##  #7 String Templates
+##  #7 Template Strings
 
 
 note:

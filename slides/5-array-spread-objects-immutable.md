@@ -1,7 +1,7 @@
 ##  Immutable Objects
 
 ```javascript
-const me = {first: 'Brian', last: 'Genisio', hair: 'dark brown';
+const me = {first: 'Brian', last: 'Genisio', hair: 'dark brown'};
 
 const modified = Object.assign({}, me, {hair: 'none'});
 
